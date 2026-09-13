@@ -26,7 +26,7 @@ At the same time, EV manufacturers have been putting high capacity battery packs
     
     If you are unsure about the rules in your country, consult a licensed electrician for more information.
 
-The software runs on specific ESP32 hardware boards, supports [Over The Air updates](setup/software/ota_update.md), has a [web interace that you can connect to for real time values](setup/software/webserver_guide.md), cellmonitoring, change settings and more. For those into [home automation](setup/software/home_assistant.md), it also supports [MQTT](setup/software/mqtt.md). 
+The software runs on specific ESP32 hardware boards, supports [Over The Air updates](setup/software/ota_update.md), has a [web interace](setup/software/webserver_guide.md) that you can connect to for real time values, cellmonitoring, change settings and more. For those into [home automation](setup/software/home_assistant.md), it also supports [MQTT](setup/software/mqtt.md) and if you want a dedicated touch screen display on-site, you have [ESPNow](setup/software/espnow.md). 
 
 See the [Frequently Asked Questions](setup/frequently_asked_questions.md) list for more details.
 
