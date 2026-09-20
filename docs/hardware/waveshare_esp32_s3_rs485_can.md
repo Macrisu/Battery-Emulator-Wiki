@@ -86,7 +86,7 @@ The 4-pin SH1.0 connector (located directly behind the USB C connector) can powe
 
 Once wired, open the **Settings** page in the web interface and set **GPIO 1/2 function** to **Status LED** (this is the default).
 
-![Waveshare_settings](../images/waveshare-esp32-s3-rs485-can-03.png){ width="792" height="374" }
+![Waveshare_settings](../images/waveshare-esp32-s3-rs485-can-03.png)
 
 !!! note "NOTE"
     The status LED and I2C display are mutually exclusive — only one can be active at a time.
