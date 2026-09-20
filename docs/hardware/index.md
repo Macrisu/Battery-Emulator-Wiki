@@ -7,8 +7,11 @@ hide:
 # Compatible Emulator Hardware
 
 There are many hardware kits that can run the Battery-Emulator software. 
+
 Cheap option is the "LilyGo T-CAN485" (1x RS485 and 1x CAN) and the "LilyGo T-2CAN" (2x CAN), depending on your Inverter + battery combo.
+
 For those that need more reliable and certifiable hardware, the "Stark CMR" is highly recommended. 
+
 Amount of stars ⭐ signal how easy to use the hardware is for a newcomer:
 
 |  Product | Notes | CAN interfaces | Newcomer friendly |
