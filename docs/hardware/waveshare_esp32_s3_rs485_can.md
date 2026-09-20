@@ -68,7 +68,7 @@ The board has pads for a 20-pin JST PH **2.0mm** pitch pin header (the classic D
 
 ![image](../images/waveshare-esp32-s3-rs485-can-04.png){ width="551" height="449" }
 
-Pigtail cable: [AliExpress](https://www.aliexpress.com/item/1005009728347159.html).
+Pigtail cable: [Aliexpress 1](https://www.aliexpress.com/item/1005006024615687.html) or [AliExpress2](https://www.aliexpress.com/item/1005009728347159.html) - 2x10P.
 
 Another version, cut in half: [AliExpress](https://a.aliexpress.com/_Ex1DziI).
 
@@ -82,7 +82,7 @@ Choose the **2x10p** version!
 
 The 4-pin SH1.0 connector (located directly behind the USB C connector) can power an optional **Adafruit NeoPixel** (or any WS2812-compatible single LED) connected to GPIO2, providing a visual status indicator.  Please note that the Waveshare only outputs 3.3v!
 
-![Waveshare to NeoPixel wiring diagram](../images/waveshare-esp32-s3-rs485-can-02.png){ width="800" height="599" }
+![Waveshare to NeoPixel wiring diagram](../images/waveshare-esp32-s3-rs485-can-02.png)
 
 Once wired, open the **Settings** page in the web interface and set **GPIO 1/2 function** to **Status LED** (this is the default).
 
