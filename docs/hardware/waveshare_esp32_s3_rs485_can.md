@@ -4,13 +4,15 @@ title: "Waveshare ESP32‐S3‐RS485‐CAN"
 
 **MCU / flash:** ESP32-S3 R8 (Xtensa LX7 dual-core, 240 MHz) with 8 MB octal/OPI PSRAM, 16 MB flash. 
 
-The Waveshare ESP32-S3-RS485-CAN is an affordable and easy to source board. It supports 1x CAN channel, and 1x RS485 port. It comes with a DIN mountable case, and accepts an input voltage between 7-36V.
+The Waveshare ESP32-S3-RS485-CAN is an affordable and easy to source board. It supports 1x CAN channel, and 1x RS485 port. 
+It comes with a DIN mountable case, and accepts an input voltage between 7-36V.
 
 ![image](../images/waveshare-esp32-s3-rs485-can-01.png)
 
 ### Where this hardware shines
 
-On setups that require RS485, and have CAN controlled contactors (E.g. Tesla Battery with a Fronius inverter), it's a plug and play solution. This board is a more future proof alternative compared to the [LilyGo T-CAN485](lilygo_t_can485.md).
+On setups that require RS485, and have CAN controlled contactors (E.g. Tesla Battery with a Fronius inverter), it's a plug and play solution. 
+This board is a more future proof alternative compared to the [LilyGo T-CAN485](lilygo_t_can485.md).
 
 | GPIO | Function |
 |---|---|
@@ -62,7 +64,7 @@ The plastic case has a bit of a headroom above the USB-C socket which allows for
 
 ### Expansion header
 
-The board has pads for a 20-pin **2.0mm** pitch pin header:
+The board has pads for a 20-pin JST PH **2.0mm** pitch pin header (the classic Dupont 2.54mm do not work), so you need this in order to communicate:
 
 ![image](../images/waveshare-esp32-s3-rs485-can-04.png){ width="551" height="449" }
 
