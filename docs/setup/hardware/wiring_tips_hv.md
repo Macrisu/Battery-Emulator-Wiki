@@ -22,7 +22,7 @@ DC wire sizing is a very important part of planning your bat10 mm²build. Most i
 !!! warning "CAUTION"
     Verify the polarity of the HV system before wiring it to the inverter. Many EV batteries don't have markings indicating which side is +/-, so doing a test run without the inverter connected is a good idea to ensure polarity. Incorrect polarity will destroy your system.
 
-Example, 50mm² cable stepped down to 10mm², and at the same time fused off with a 25A solar DC ceramic fuse:
+Example, 50mm² cable stepped down to 10 mm², and at the same time fused off with a 25A solar DC ceramic fuse:
 
 ![image](../../images/installation-guidelines-07.png)
 
@@ -30,7 +30,7 @@ Example: two EV battery inputs stepped down to 10mm² using DC fuses:
 
 ![image](../../images/installation-guidelines-08.png)
 
-If you just want to step down the wire size (from 50mm² cable to 10mm² cable), you can use a terminal block such as [UKK 160](https://s.click.aliexpress.com/e/_c36053wp)
+If you just want to step down the wire size (from 50 mm² cable to 10 mm² cable), you can use a terminal block such as [UKK 160](https://s.click.aliexpress.com/e/_c36053wp)
 
 ![image](../../images/installation-guidelines-10.png)
 
@@ -39,7 +39,7 @@ If space is an issue, you can use this: [1 module 150A terminal block](https://s
     - 1 cable in (35mm²), 1 cable out (35mm²)
     - 1 cable in (35mm²), 2 cables out (10mm²)
 
-<img src="../../images/1_module_distribution_block.jpg" alt="1 module distribution block" width="300">
+![image](../../images/1_module_distribution_block.jpg) { width="300" }
 
 ### DC Fuses
 
@@ -84,14 +84,14 @@ Don't buy cheap products from doubtful sources unless you intend to burn your ho
 
 If you want to use DIN DC MCB Fuses, use something like [**Schneider C60PV-DC 800VDC (A9N61660)**](https://www.se.com/be/en/product/download-pdf/A9N61660?filename=Schneider+Electric_Acti9-C60HDC-Acti9-C60PVDC_A9N61660.pdf).
 
-<img src="../../images/DC_MCB_bidirectional.jpg" alt="DC MCB bi-directional" width="500">
+![image](../../images/DC_MCB_bidirectional.jpg) { width="500" }
 
 #### DC Disconnect switch
 Some countries have legislation requiring DC disconnect switches (also known as DC isolation switches). 
 
 The idea is that these switches will be installed in a location where first responders and firefighters can easily turn off your solar/battery system. Check your local legislation to see if this is required in your area.
 
-<img src="../../images/DC_Switch.jpg" alt="DC Disconnect Switch" width="500">
+![image](../../images/DC_Switch.jpg) { width="500" }
 
 [IP67 Waterproof 32A 1000V Disconnect Switch](https://imopc.com/imo_uk_gbp_view/enclosed-dc-switch-ip66-6249d58eb8c4a.html)
 
