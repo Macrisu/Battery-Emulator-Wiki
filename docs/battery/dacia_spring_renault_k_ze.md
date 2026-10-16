@@ -36,6 +36,8 @@ In order to read the information from the BMS, you need:
 
 ![Dacia Spring Test Rig](../images/Spring_Test_Rig.jpeg)
 
+Look for SoC, SoH, and Cell Delta (low is better); see [this example](../images/Spring_be_test.jpeg).
+
 ### Shopping list
 Here is a detailed [shopping list](https://docs.google.com/spreadsheets/d/14ghFL5mUg0hlUOsraOJc9BExlsMp5ClRRITRSQVLfkA/htmlview#gid=1550632359) for this battery implementation.
 
