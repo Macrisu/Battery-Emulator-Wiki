@@ -30,9 +30,11 @@ These batteries have 72 cells in series, which results in an operating voltage o
 ### Testing the battery
 In order to read the information from the BMS, you need:
 
-- [LiLyGo T-CAN485](https://s.click.aliexpress.com/e/_oDPdyMg) or [Waveshare ESP32-S3-RS485-CAN](https://s.click.aliexpress.com/e/_c45gWHQD) with Battery Emulator installed and configured for this battery and NO inverter.
+- [LiLyGo T-CAN485](https://s.click.aliexpress.com/e/_oDPdyMg) or [Waveshare ESP32-S3-RS485-CAN](https://s.click.aliexpress.com/e/_c45gWHQD) with Battery Emulator installed and configured for this battery (CMFA Platform) and **NO inverter**.
 - 12V source for the board and battery (it can be a Gel battery, UPS, 12V adapter, etc)
 - Low Voltage battery Connector with those wires connected: 12V, GND, CAN-L and CAN-H (see the [connections](../images/dacia-spring-renault-k-ze-24.png))
+
+![Dacia Spring Test Rig](../images/Spring_Test_Rig.jpeg)
 
 ### Shopping list
 Here is a detailed [shopping list](https://docs.google.com/spreadsheets/d/14ghFL5mUg0hlUOsraOJc9BExlsMp5ClRRITRSQVLfkA/htmlview#gid=1550632359) for this battery implementation.
@@ -109,7 +111,11 @@ Note that there are two versions of the service disconnect switch. The 2021 mode
 
 ![image](../images/dacia-spring-renault-k-ze-09.png)
 
-The polarity of the High Voltage outputs can be seen here, Left is **positive**, Right is **negative**.
+**2022** battery year fuse:
+
+![image](../images/Spring_fuse_2022.jpg)
+
+The polarity of the high-voltage outputs can be seen here: left is **positive**, Right is **negative**.
 
 ![Polarity](../images/dacia-spring-renault-k-ze-10.jpg)
 
