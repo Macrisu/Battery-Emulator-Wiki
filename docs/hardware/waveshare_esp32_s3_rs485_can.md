@@ -110,14 +110,18 @@ Once wired, open the **Settings** page in the web interface and set **GPIO 1/2 f
 
 ### Note on temperature
 
-![Waveshare chipset temeprature](../images/Waveshare_Temperature.jpg)
+![Waveshare chipset temperature](../images/Waveshare_Temperature.jpg)
 
  - with WIFI AP ON, the ESP32 S3 chip is about +50C
  - with WIFI AP OFF, the ESP32 S3 chip is about +40C
 
  With WIFI AP OFF, it is still connected to a Wi-Fi network, but it does not broadcast its own SSID.
 
- They're rated to operate up to +85C (185F), but if the medium is very hot, consider ventilation, some holes in the case, and a small heatsink on the ESP32S3 chip.
+ They're rated to operate up to +85C (185F), but if the medium is very hot, consider ventilation, some holes in the case, and a [small heatsink](https://s.click.aliexpress.com/e/_c4080m2l) on the ESP32S3 chip.
+
+![Waveshare chipset with heatsink](../images/Waveshare_with_Heatsink.jpeg) 
+
+ See FLIR images of the ESP32-S3 chipset AP ON, [without a heatsink](../images/Waveshare_NO_Heatsink_Flir.jpeg), and [with a heatsink](../images/Waveshare_With_Heatsink_Flir.jpeg).
 
 ### See also
 
