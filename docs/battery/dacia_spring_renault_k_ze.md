@@ -104,6 +104,8 @@ See [4ch SSR on DIN rail **(DC-CN)**](https://s.click.aliexpress.com/e/_olDgyMC)
 
 ![4ch SSR on DIN GND](../images/dacia-spring-renault-k-ze-07.jpg)
 
+![Ready to deploy system](../images/Spring_BE_Final_Test.jpeg)
+
 ## Wiring, High voltage
 The battery has a service disconnect switch:
 
@@ -124,9 +126,12 @@ The polarity of the high-voltage outputs can be seen here: left is **positive**,
 ## HV Cable preparation
 Beware of the mantle strings (cut them) to avoid touching the copper conductor.
 The optional [ferrule](https://www.aliexpress.com/item/1005007192861678.html) for the copper conductor is 35smm
-![HV cable](../images/dacia-spring-renault-k-ze-11.jpg)
+![Dacia Spring HV cable](../images/dacia-spring-renault-k-ze-11.jpg)
 
-![HV_box](../images/dacia-spring-renault-k-ze-12.jpg)
+![Dacia Spring HV_box](../images/dacia-spring-renault-k-ze-12.jpg)
+
+![Dacia Spring Hv box 2](../images/Spring_HV_Open_box.jpeg)
+
 
 ## Configuring the software
 Enable the `CMFA platform, 27 kWh battery` option in the software.
