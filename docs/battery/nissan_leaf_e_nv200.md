@@ -11,7 +11,6 @@ For this battery type, use the option named **Nissan LEAF battery** under the **
 - keep the **Automatic current offset correction** enabled, which will calibrate current measurement skew during open contactors (more info below).
 - On a ZE0 (2011-2012 24kWh) battery, you can enable **Interlock required** for extra safety. The system checks that the original high voltage connectors and SDS are properly seated in before you can start.
        - If you enable this setting on an AZE0 or ZE1 (2013-2023) battery, both HV plugs need to be seated (80kW motor and 6kW heater). Thus, for these, it is recommended to **not** use **Interlock required** due to the inconvenience of having to source both HV connectors (and manually insulate one of them). Instead, just block off the unused HV port with a 3D-printed [cover](../setup/hardware/list_of_3d_printable_parts.md#heater-port-cover).
-- set the **Battery chemistry** to **NMC**.
 
 !!! tip "TIP"
     **Balancing strategy** set to **Conservative** avoids overbalancing when your pack is in good shape (small cell voltage delta in your preferred SOC range). The **Aggressive** setting corresponds to the way the battery used to balance when in the car duing driving, **Conservative** is the way it used to balance during AC charging. **Off** corresponds to the balancing strategy that used to be applied during quick charge of the car.
