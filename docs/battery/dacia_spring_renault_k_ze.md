@@ -30,7 +30,7 @@ These batteries have 72 cells in series, which results in an operating voltage o
 ### Testing the battery
 In order to read the information from the BMS, you need:
 
-- [LiLyGo T-CAN485](https://s.click.aliexpress.com/e/_oDPdyMg) or [Waveshare ESP32-S3-RS485-CAN](https://s.click.aliexpress.com/e/_c45gWHQD) with Battery Emulator installed and configured for this battery (CMFA Platform) and **NO inverter**.
+- [LiLyGo T-2CAN](https://dalathegreat.github.io/Battery-Emulator-Wiki/hardware/lilygo_t_2can/) or [Waveshare ESP32-S3-RS485-CAN](https://dalathegreat.github.io/Battery-Emulator-Wiki/hardware/waveshare_esp32_s3_rs485_can/) with Battery Emulator installed and configured for this battery (CMFA Platform) and **NO inverter**.
 - 12V source for the board and battery (it can be a Gel battery, UPS, 12V adapter, etc)
 - Low Voltage battery Connector with those wires connected: 12V, GND, CAN-L and CAN-H (see the [connections](../images/dacia-spring-renault-k-ze-24.png))
 
