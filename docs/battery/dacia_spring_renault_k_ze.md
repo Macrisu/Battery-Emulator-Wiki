@@ -30,9 +30,13 @@ These batteries have 72 cells in series, which results in an operating voltage o
 ### Testing the battery
 In order to read the information from the BMS, you need:
 
-- [LiLyGo T-CAN485](https://s.click.aliexpress.com/e/_oDPdyMg) or [Waveshare ESP32-S3-RS485-CAN](https://s.click.aliexpress.com/e/_c45gWHQD) with Battery Emulator installed and configured for this battery and NO inverter.
+- [LiLyGo T-2CAN](https://dalathegreat.github.io/Battery-Emulator-Wiki/hardware/lilygo_t_2can/) or [Waveshare ESP32-S3-RS485-CAN](https://dalathegreat.github.io/Battery-Emulator-Wiki/hardware/waveshare_esp32_s3_rs485_can/) with Battery Emulator installed and configured for this battery (CMFA Platform) and **NO inverter**.
 - 12V source for the board and battery (it can be a Gel battery, UPS, 12V adapter, etc)
 - Low Voltage battery Connector with those wires connected: 12V, GND, CAN-L and CAN-H (see the [connections](../images/dacia-spring-renault-k-ze-24.png))
+
+![Dacia Spring Test Rig](../images/Spring_Test_Rig.jpeg)
+
+Look for SoC, SoH, and Cell Delta (low is better); see [this example](../images/Spring_be_test.jpeg).
 
 ### Shopping list
 Here is a detailed [shopping list](https://docs.google.com/spreadsheets/d/14ghFL5mUg0hlUOsraOJc9BExlsMp5ClRRITRSQVLfkA/htmlview#gid=1550632359) for this battery implementation.
@@ -61,7 +65,7 @@ The battery contains a terminating resistor.
 
 ![Fronius Dacia Spring Waveshare ESP32-S3-RS485-CAN](../images/Fronius_Dacia_Spring_Waveshare.jpg)
 
-The original drawing file can be found [here](../images/Fronius_Dacia_Spring_Waveshare.drawio) and can be edited in [draw.io](https://app.diagrams.net/).
+The original drawing file can be found [here](https://drive.google.com/file/d/15E6hzqurfeQikxyK09DTve1eBq5_k_Qm/view?usp=sharing) and can be edited in [draw.io](https://app.diagrams.net/).
 
 ### LilyGo T-CAN485
 
@@ -100,6 +104,8 @@ See [4ch SSR on DIN rail **(DC-CN)**](https://s.click.aliexpress.com/e/_olDgyMC)
 
 ![4ch SSR on DIN GND](../images/dacia-spring-renault-k-ze-07.jpg)
 
+![Ready to deploy system](../images/Spring_BE_Final_Test.jpeg)
+
 ## Wiring, High voltage
 The battery has a service disconnect switch:
 
@@ -109,16 +115,23 @@ Note that there are two versions of the service disconnect switch. The 2021 mode
 
 ![image](../images/dacia-spring-renault-k-ze-09.png)
 
-The polarity of the High Voltage outputs can be seen here, Left is **positive**, Right is **negative**.
+**2022** battery year fuse:
+
+![image](../images/Spring_fuse_2022.jpg)
+
+The polarity of the high-voltage outputs can be seen here: left is **positive**, Right is **negative**.
 
 ![Polarity](../images/dacia-spring-renault-k-ze-10.jpg)
 
 ## HV Cable preparation
 Beware of the mantle strings (cut them) to avoid touching the copper conductor.
 The optional [ferrule](https://www.aliexpress.com/item/1005007192861678.html) for the copper conductor is 35smm
-![HV cable](../images/dacia-spring-renault-k-ze-11.jpg)
+![Dacia Spring HV cable](../images/dacia-spring-renault-k-ze-11.jpg)
 
-![HV_box](../images/dacia-spring-renault-k-ze-12.jpg)
+![Dacia Spring HV_box](../images/dacia-spring-renault-k-ze-12.jpg)
+
+![Dacia Spring Hv box 2](../images/Spring_HV_Open_box.jpeg)
+
 
 ## Configuring the software
 Enable the `CMFA platform, 27 kWh battery` option in the software.
