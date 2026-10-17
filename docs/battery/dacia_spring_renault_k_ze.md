@@ -65,7 +65,7 @@ The battery contains a terminating resistor.
 
 ![Fronius Dacia Spring Waveshare ESP32-S3-RS485-CAN](../images/Fronius_Dacia_Spring_Waveshare.jpg)
 
-The original drawing file can be found [here](../images/Fronius_Dacia_Spring_Waveshare.drawio) and can be edited in [draw.io](https://app.diagrams.net/).
+The original drawing file can be found [here](https://drive.google.com/file/d/15E6hzqurfeQikxyK09DTve1eBq5_k_Qm/view?usp=sharing) and can be edited in [draw.io](https://app.diagrams.net/).
 
 ### LilyGo T-CAN485
 
