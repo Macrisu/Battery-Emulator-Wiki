@@ -42,11 +42,11 @@ Look for SoC, SoH, and Cell Delta (low is better); see [this example](../images/
 Here is a detailed [shopping list](https://docs.google.com/spreadsheets/d/14ghFL5mUg0hlUOsraOJc9BExlsMp5ClRRITRSQVLfkA/htmlview#gid=1550632359) for this battery implementation.
 
 ## Software configuration
-For this battery type, use the option called "CMFA platform, 27kWh battery" under the "Battery Protocol" section, NMC chemistry.
+For this battery type, use the option called **"CMFA platform, 27kWh battery"** under the "Battery Protocol" section.
 
-![setari](../images/dacia-spring-renault-k-ze-02.jpg)
+![setari](../images/Spring_batt_Config.png)
 
-See [Fronius Gen24 settings](../images/dacia-spring-renault-k-ze-25.jpg)
+See [Fronius Gen24 settings](../images/Full_Spring_Conf.jpg)
 
 ## Battery module - BMS pin diagram. 
 BMS reads from each module the cell voltage + one GND, and 2 temperature sensors (one for each module). should be ~17Kohm range.
@@ -69,9 +69,9 @@ The original drawing file can be found [here](https://drive.google.com/file/d/15
 
 ### LilyGo T-CAN485
 
-![Fronius Dacia Spring LilyGo T-CAN485](../images/dacia-spring-renault-k-ze-03.jpg)
+![Fronius Dacia Spring LilyGo T-CAN485](../images/Fronius_Dacia_Spring_T-can485.jpg)
 
-The original drawing file can be found [here](../images/working_Spring-Schema.drawio) and can be edited in [draw.io](https://app.diagrams.net/).
+The original drawing file can be found [here](https://drive.google.com/file/d/1YSzWctvrlvYAQNVv0NmDN6hR19TNYFDT/view?usp=sharing) and can be edited in [draw.io](https://app.diagrams.net/).
 
 The LV connector on the battery has the following pinout:
 
@@ -94,7 +94,7 @@ Connect the battery to the Battery-Emulator according to this diagram:
 
 ![schema_conectare](../images/dacia-spring-renault-k-ze-24.png)
 
-The original drawing file can be found [here](../images/Miguel-2026-03-19-2107.excalidraw)
+The original drawing file can be found [here](../images/Miguel-2026-03-19-2107.excalidraw) and edited in Excalidraw (https://excalidraw.com).
 
 12V power info: The precharge+contactors consume 1.5A. The BMS itself uses 0.1A
 
