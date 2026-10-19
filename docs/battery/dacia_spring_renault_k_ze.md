@@ -2,7 +2,7 @@
 title: "Dacia Spring/Renault K-ZE (CMFA-EV)"
 ---
 
-The Dacia Spring Electric (27.4kWh) / Renault K-ZE (26.8kWh) are both vehicles on the CMFA-EV platform. 
+The **Dacia Spring Electric (27.4kWh) / Renault K-ZE (26.8kWh**) are both vehicles on the **CMFA-EV platform**. 
 
 There are also a few Chinese EVs that share the same CMFA-EV battery platform; all the following models are compatible with the Battery-Emulator integration:
 
@@ -23,7 +23,7 @@ Some 2024+ batteries seem to not respond to CAN. Investigation ongoing!
 
 ### General info
 
-These batteries have 72 cells in series, which results in an operating voltage of approximately 216 to 302 VDC. Make sure [the inverter](../inverter/index.md#compatible-inverters-list) you are planning to use is compatible with this voltage range!
+These batteries have 72 cells in series, resulting in an operating voltage of approximately 216-302 VDC. Make sure [the inverter](../inverter/index.md#compatible-inverters-list) you are planning to use is compatible with this voltage range!
 
 ![image](../images/dacia-spring-renault-k-ze-01.png)
 
@@ -85,6 +85,9 @@ Try to source at least the LV connector; scrapers are happy to cut the cables an
 The LV connector usually goes to scrap with the car.
 You can buy LV connector using the PT06A-12-10S from [here](https://www.conrad.com/en/p/amphenol-62in-16a-12-10s-6a-cable-socket-62in-nominal-current-details-7-5-a-pins-10-n-a-739514.html)
 
+If you cannot find an LV connector, you can use the [individual female pins of an OBD2 socket](https://s.click.aliexpress.com/e/_c4n9xqVT).
+Don't forget to use insulation (shrink tubing) on the pins and 0.5-1 mm copper wires.
+
 Get the HV connector too; it makes things look nicer. 
 Search for the HV cable and connector on [eBay](https://www.ebay.com/sch/i.html?_nkw=297A21306R), part#: 297A21306R
 
@@ -96,7 +99,7 @@ Connect the battery to the Battery-Emulator according to this diagram:
 
 The original drawing file can be found [here](../images/Miguel-2026-03-19-2107.excalidraw) and edited in Excalidraw (https://excalidraw.com).
 
-12V power info: The precharge+contactors consume 1.5A. The BMS itself uses 0.1A
+12V power info: The precharge+contactors consume 1.5A; the BMS itself uses 0.1A
 
 Use a relay board (NO) (5V or 12V) to apply GND to the pins (pin 2AE / 2AD / 2AC all accept a **GND signal** to be toggled on).
 
