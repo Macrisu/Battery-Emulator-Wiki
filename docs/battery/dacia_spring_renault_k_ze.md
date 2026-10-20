@@ -86,7 +86,9 @@ The LV connector usually goes to scrap with the car.
 You can buy LV connector using the PT06A-12-10S from [here](https://www.conrad.com/en/p/amphenol-62in-16a-12-10s-6a-cable-socket-62in-nominal-current-details-7-5-a-pins-10-n-a-739514.html)
 
 If you cannot find an LV connector, you can use the [individual female pins of an OBD2 socket](https://s.click.aliexpress.com/e/_c4n9xqVT).
-Don't forget to use insulation (shrink tubing) on the pins and 0.5-1 mm copper wires.
+Don't forget to use insulation (shrink tubing) on the pins and 0.5-0.75 mm copper wires. See [this PDF file](../images/Spring_LV_DIY_pins.pdf).
+
+See this video on [how to crimp the wires](https://www.youtube.com/watch?v=A8TIqNG7Yfk).
 
 Get the HV connector too; it makes things look nicer. 
 Search for the HV cable and connector on [eBay](https://www.ebay.com/sch/i.html?_nkw=297A21306R), part#: 297A21306R
