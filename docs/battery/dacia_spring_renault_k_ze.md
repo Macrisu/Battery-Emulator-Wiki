@@ -48,8 +48,8 @@ For this battery type, use the option called **"CMFA platform, 27kWh battery"** 
 
 See [Fronius Gen24 settings](../images/Full_Spring_Conf.jpg)
 
-## Battery module - BMS pin diagram. The 
-BMS reads the cell voltage from each module, plus one GND and 2 temperature sensors (one per module); they should be in the ~17 kω range.
+## Battery module - BMS pin diagram
+The BMS reads the cell voltage from each module, plus one GND and 2 temperature sensors (one per module); they should be in the ~17 kω range.
 
 ![image](../images/dacia-spring-renault-k-ze-22.png)
 
